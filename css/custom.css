@@ -1,0 +1,316 @@
+/* 
+ * Styles personnalisés pour l'application IPIRNET
+ * Couleurs de marque : Bleu (#0066CC) et Blanc (#FFFFFF)
+ */
+
+:root {
+    --ipirnet-blue: #0066CC;
+    --ipirnet-dark-blue: #004499;
+    --ipirnet-light-blue: #3388FF;
+    --ipirnet-gray: #F8F9FA;
+    --ipirnet-dark-gray: #6C757D;
+}
+
+/* Configuration générale */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 76px; /* Espace pour la navbar fixe */
+    background-color: var(--ipirnet-gray);
+}
+
+/* Navigation personnalisée */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.bg-primary {
+    background-color: var(--ipirnet-blue) !important;
+}
+
+.btn-primary {
+    background-color: var(--ipirnet-blue);
+    border-color: var(--ipirnet-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--ipirnet-dark-blue);
+    border-color: var(--ipirnet-dark-blue);
+}
+
+.text-primary {
+    color: var(--ipirnet-blue) !important;
+}
+
+/* Contenu principal */
+.main-content {
+    min-height: calc(100vh - 200px);
+    padding: 2rem 0;
+}
+
+/* Cards personnalisées */
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background-color: var(--ipirnet-blue);
+    color: white;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.card-header h5 {
+    margin: 0;
+}
+
+/* Badges personnalisés */
+.badge.bg-primary {
+    background-color: var(--ipirnet-blue) !important;
+}
+
+.badge.bg-success {
+    background-color: #28a745;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545;
+}
+
+/* Tableaux */
+.table {
+    background-color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+    background-color: rgba(0, 102, 204, 0.05);
+}
+
+.table th {
+    background-color: var(--ipirnet-blue);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+/* Formulaires */
+.form-control:focus {
+    border-color: var(--ipirnet-light-blue);
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+.form-select:focus {
+    border-color: var(--ipirnet-light-blue);
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+/* Alerts personnalisées */
+.alert-info {
+    background-color: rgba(0, 102, 204, 0.1);
+    border-color: var(--ipirnet-light-blue);
+    color: var(--ipirnet-dark-blue);
+}
+
+/* Stats cards */
+.stats-card {
+    background: linear-gradient(135deg, var(--ipirnet-blue), var(--ipirnet-light-blue));
+    color: white;
+}
+
+.stats-card .card-body {
+    padding: 1.5rem;
+}
+
+.stats-card h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.stats-card p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* Module cards */
+.module-card {
+    border-left: 4px solid var(--ipirnet-blue);
+}
+
+.module-card.controle {
+    border-left-color: #28a745;
+}
+
+.module-card.sans-controle {
+    border-left-color: #ffc107;
+}
+
+/* Progress bars */
+.progress {
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: var(--ipirnet-blue);
+}
+
+/* Login page */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--ipirnet-blue), var(--ipirnet-light-blue));
+}
+
+.login-card {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.login-header {
+    text-align: center;
+    padding: 2rem 2rem 1rem;
+}
+
+.login-header h2 {
+    color: var(--ipirnet-blue);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.login-header p {
+    color: var(--ipirnet-dark-gray);
+    margin: 0;
+}
+
+/* File upload */
+.file-upload-zone {
+    border: 2px dashed var(--ipirnet-light-blue);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0, 102, 204, 0.05);
+    transition: all 0.3s ease;
+}
+
+.file-upload-zone:hover {
+    border-color: var(--ipirnet-blue);
+    background-color: rgba(0, 102, 204, 0.1);
+}
+
+.file-upload-zone.dragover {
+    border-color: var(--ipirnet-blue);
+    background-color: rgba(0, 102, 204, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 1rem 0;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .stats-card h3 {
+        font-size: 2rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar, .footer, .btn, .alert {
+        display: none !important;
+    }
+    
+    .main-content {
+        padding-top: 0;
+    }
+    
+    .card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    .card-header {
+        background-color: #f8f9fa !important;
+        color: #333 !important;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Scroll to top button */
+.scroll-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--ipirnet-blue);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    display: none;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.scroll-top:hover {
+    background-color: var(--ipirnet-dark-blue);
+    transform: translateY(-2px);
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

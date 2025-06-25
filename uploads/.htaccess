@@ -1,0 +1,23 @@
+# Protection du dossier uploads - Application IPIRNET
+# Empêche l'exécution de scripts PHP dans le dossier uploads
+
+# Désactiver l'exécution PHP
+php_flag engine off
+
+# Interdire l'accès aux fichiers PHP
+<Files ~ "\.php$">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Types de fichiers autorisés
+<FilesMatch "\.(pdf|doc|docx|ppt|pptx|xls|xlsx|zip|rar)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Désactiver la liste des répertoires
+Options -Indexes
+
+# Limitation de la taille des fichiers
+LimitRequestBody 10485760
