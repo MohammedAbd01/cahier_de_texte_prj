@@ -1,245 +1,403 @@
-# Application de Gestion de Projet - Groupe IPIRNET
+# Hi there, I'm Mohammed Abidou 👋
 
-## Description
-Application web de gestion de projet pour un centre de formation, développée pour le module "Technicien Spécialisé en Développement Informatique" du Groupe IPIRNET.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Full%20Stack%20Developer&fontSize=50&fontColor=fff&animation=fadeIn" />
+</div>
 
-L'application permet la gestion complète d'un cahier de texte, le suivi des modules de formation, et l'enseignement à distance.
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=800&lines=🚀+Full+Stack+Developer;🔒+Cybersecurity+Enthusiast;🌐+Django+%26+REST+API+Expert;⚡+AI+%26+Prompt+Engineering;🎯+Open+Source+Contributor" alt="Typing SVG" />
+</div>
 
-## Fonctionnalités Principales
+<br>
 
-### 🎯 Authentification Multi-Rôles
-- **Directeur** : Gestion complète de l'application
-- **Formateur** : Gestion des modules assignés et saisie des notes
-- **Stagiaire** : Consultation des cours et téléchargement des contenus
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5)](https://www.linkedin.com/in/mohammed-abidou-603284270)
+  [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:abidou.mohammed03@gmail.com)
+  [![Location](https://img.shields.io/badge/🌍_Berrechid-Morocco-00D9FF?style=for-the-badge&labelColor=2E3440)](#)
+  [![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=00D9FF&style=for-the-badge&label=Profile+Views)](https://github.com/yourusername)
+  
+</div>
 
-### 📚 Gestion du Cahier de Texte
-- Création et gestion des filières de formation
-- Définition des modules avec leurs séquences
-- Gestion des Objectifs Pédagogiques Opérationnels (OPO)
-- Génération de documents PDF du cahier de texte
-- Attribution des formateurs aux modules
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### 📊 Suivi et Contrôle
-- Tableau de bord personnalisé selon le rôle
-- Suivi de la progression des modules
-- Saisie et consultation des notes
-- Statistiques détaillées
-- Contrôles en fin d'OPO
+## 🚀 About Me
 
-### 🌐 Enseignement à Distance
-- Upload de fichiers de cours (PDF, DOC, PPT, etc.)
-- Interface de téléchargement pour les stagiaires
-- Gestion des contenus par module
-- Système de drag & drop pour l'upload
+<table>
+<tr>
+<td width="50%">
 
-## Technologies Utilisées
+> **Passionate Computer Engineering Graduate** specializing in networking, web development, and cybersecurity. Experienced in building scalable web applications with Django and integrating cutting-edge AI solutions.
 
-- **Backend** : PHP natif (sans framework)
-- **Frontend** : HTML5, Bootstrap 5.3, CSS3
-- **Base de données** : MySQL
-- **Icons** : Bootstrap Icons
-- **Responsive Design** : Bootstrap Grid System
+- 🎓 **Bachelor's in Computer Engineering** - FST Settat (2024-2025)
+- 💼 **Currently:** IT & Web Development Intern at ADVAL Maroc
+- 🔐 **Specialized in:** Cybersecurity, Django REST APIs, AI Integration
+- 🌱 **Learning:** Advanced Cloud Security & MLOps
+- ⚡ **Passion:** Building secure, intelligent web solutions
 
-## Structure du Projet
+</td>
+<td width="50%">
 
-```
-projet_php_cahier_texte_101/
-├── index.php                 # Page d'accueil / Dashboard
-├── login.php                 # Page de connexion
-├── logout.php                # Script de déconnexion
-├── groupe_ipirnet.sql        # Script de création de la base de données
-├── README.txt                # Ce fichier
-├── css/
-│   └── custom.css            # Styles personnalisés IPIRNET
-├── includes/
-│   ├── db_connect.php        # Connexion base de données
-│   ├── header.php            # En-tête commun
-│   └── footer.php            # Pied de page commun
-├── views/
-│   ├── cahier.php            # Gestion du cahier de texte
-│   ├── generate_cahier.php   # Génération du document
-│   ├── suivi.php             # Suivi des modules et notes
-│   └── distance.php          # Gestion des cours à distance
-└── uploads/                  # Dossier des fichiers uploadés
+```python
+class MohammedAbidou:
+    def __init__(self):
+        self.name = "Mohammed Abidou"
+        self.role = "Full Stack Developer"
+        self.location = "Berrechid, Morocco"
+        self.languages = ["Python", "JavaScript", "PHP", "Java"]
+        self.specialties = ["Django", "Cybersecurity", "AI Integration"]
+        self.current_focus = "Building secure, scalable web apps"
+    
+    def say_hi(self):
+        return "Let's build something amazing together! 🚀"
 ```
 
-## Installation et Configuration
+</td>
+</tr>
+</table>
 
-### Prérequis
-- XAMPP (Apache + MySQL + PHP 7.4+)
-- Navigateur web moderne
-- Au moins 100 MB d'espace disque
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### Étapes d'Installation
+## 🛠️ Tech Arsenal
 
-#### 1. Installation de XAMPP
-1. Téléchargez XAMPP depuis https://www.apachefriends.org/
-2. Installez XAMPP dans le dossier par défaut
-3. Démarrez les services Apache et MySQL depuis le panneau de contrôle XAMPP
+<div align="center">
 
-#### 2. Configuration du Projet
-1. Copiez le dossier `projet_php_cahier_texte_101` dans le répertoire `htdocs` de XAMPP
-   - Chemin par défaut : `C:\xampp\htdocs\` (Windows) ou `/Applications/XAMPP/htdocs/` (Mac)
+### 💎 Core Technologies
+<table>
+<tr>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+<br><strong>Python</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=django" width="48" height="48" alt="Django" />
+<br><strong>Django</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+<br><strong>JavaScript</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
+<br><strong>PHP</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+<br><strong>Java</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
+<br><strong>C</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" />
+<br><strong>Bash</strong>
+</td>
+</tr>
+</table>
 
-2. Accédez à phpMyAdmin : http://localhost/phpmyadmin
+### 🎨 Frontend & Design
+<table>
+<tr>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+<br><strong>HTML5</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
+<br><strong>CSS3</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+<br><strong>Tailwind</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
+<br><strong>Bootstrap</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
+<br><strong>WordPress</strong>
+</td>
+</tr>
+</table>
 
-3. Créez la base de données :
-   - Cliquez sur "Importer"
-   - Sélectionnez le fichier `groupe_ipirnet.sql`
-   - Cliquez sur "Exécuter"
+### 🗄️ Database & Cloud
+<table>
+<tr>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+<br><strong>MySQL</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
+<br><strong>Azure</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+<br><strong>Git</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+<br><strong>VS Code</strong>
+</td>
+<td align="center" width="100px">
+<img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+<br><strong>Postman</strong>
+</td>
+</tr>
+</table>
 
-#### 3. Configuration de la Base de Données
-Éditez le fichier `includes/db_connect.php` si nécessaire :
+### 🏆 Certifications & Specializations
+![Django](https://img.shields.io/badge/Django_Web_Framework-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django_REST_Framework-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![Version Control](https://img.shields.io/badge/Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![AI](https://img.shields.io/badge/Generative_AI-FF6B6B?style=for-the-badge&logo=openai&logoColor=white)
+![Python](https://img.shields.io/badge/Programming_in_Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Programming_with_JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'groupe_ipirnet');
-define('DB_USER', 'root');      // Votre utilisateur MySQL
-define('DB_PASS', '');          // Votre mot de passe MySQL (vide par défaut)
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 💼 Professional Journey
+
+<div align="center">
+
+```mermaid
+timeline
+    title Mohammed's Professional Timeline
+    2021 : University Studies Begin
+         : SMIA at Université Chouaïb Doukkali
+    2022 : DEUST Program
+         : Mathematics, CS & Physics
+    2023 : Freelance Career Start
+         : WordPress Development
+    2024 : Bachelor's Degree
+         : Computer Engineering FST Settat
+    2025 : Current Role
+         : IT & Web Dev Intern at ADVAL Maroc
 ```
 
-#### 4. Configuration des Permissions
-Assurez-vous que le dossier `uploads/` est accessible en écriture :
-- Windows : Clic droit > Propriétés > Sécurité > Modifier les permissions
-- Mac/Linux : `chmod 755 uploads/`
+</div>
 
-## Accès à l'Application
+### 🔹 IT & Web Development Intern | **ADVAL Maroc**
+*April 2025 - Present*
 
-### URL d'Accès
-http://localhost/projet_php_cahier_texte_101/
+<table>
+<tr>
+<td width="60%">
 
-### Comptes de Démonstration
+**Key Achievements:**
+- 🚀 **Full-Stack Development:** Built robust web applications using Django & Django REST Framework
+- 🤖 **AI Integration:** Implemented cutting-edge AI APIs for innovative business solutions  
+- ☁️ **Cloud Deployment:** Optimized website performance and security on Azure platform
+- 📊 **Database Design:** Created efficient MySQL database architectures
+- 🎨 **WordPress Mastery:** Developed custom themes and plugins for enhanced functionality
 
-#### Directeur
-- **Email** : directeur@ipirnet.com
-- **Mot de passe** : password123
-- **Accès** : Toutes les fonctionnalités
+</td>
+<td width="40%">
 
-#### Formateur 1
-- **Email** : formateur1@ipirnet.com
-- **Mot de passe** : password123
-- **Accès** : Gestion des modules assignés, upload de cours, saisie des notes
-
-#### Formateur 2
-- **Email** : formateur2@ipirnet.com
-- **Mot de passe** : password123
-- **Accès** : Gestion des modules assignés, upload de cours, saisie des notes
-
-#### Stagiaire 1
-- **Email** : stagiaire1@ipirnet.com
-- **Mot de passe** : password123
-- **Accès** : Consultation des cours, téléchargement des contenus
-
-#### Stagiaire 2
-- **Email** : stagiaire2@ipirnet.com
-- **Mot de passe** : password123
-- **Accès** : Consultation des cours, téléchargement des contenus
-
-## Guide d'Utilisation
-
-### Pour le Directeur
-1. **Dashboard** : Vue d'ensemble des statistiques
-2. **Cahier de Texte** : Créer des filières et modules
-3. **Suivi des Modules** : Voir la progression globale
-4. **Cours à Distance** : Gérer tous les contenus
-
-### Pour les Formateurs
-1. **Mes Modules** : Voir les modules assignés
-2. **Saisie des Notes** : Évaluer les stagiaires
-3. **Upload de Cours** : Partager du contenu à distance
-4. **Suivi** : Voir les statistiques de ses modules
-
-### Pour les Stagiaires
-1. **Mes Cours** : Accéder aux contenus disponibles
-2. **Mes Notes** : Consulter les évaluations
-3. **Téléchargements** : Récupérer les fichiers de cours
-
-## Fonctionnalités Techniques
-
-### Sécurité
-- Authentification par session PHP
-- Hachage des mots de passe avec `password_hash()`
-- Protection contre les injections SQL avec prepared statements
-- Validation des types de fichiers uploadés
-- Limitation de la taille des fichiers (10 MB max)
-
-### Base de Données
-```sql
--- Tables principales
-users         # Utilisateurs (directeur, formateur, stagiaire)
-filieres      # Filières de formation
-modules       # Modules pédagogiques
-cours_distance # Fichiers de cours à distance
-notes         # Notes des stagiaires
+**Technologies Used:**
+```yaml
+Backend: Django, Django REST, PHP
+Frontend: HTML5, CSS3, JavaScript
+Database: MySQL, Optimization
+Cloud: Microsoft Azure
+CMS: WordPress
+Tools: Git, VS Code, Postman
 ```
 
-### Upload de Fichiers
-- Types acceptés : PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, ZIP, RAR
-- Taille maximale : 10 MB par fichier
-- Noms de fichiers uniques générés automatiquement
-- Interface drag & drop pour une meilleure UX
+</td>
+</tr>
+</table>
 
-## Résolution des Problèmes
+### 🔹 Freelance WordPress Developer
+*Ongoing Project-Based Work*
 
-### Problème de Connexion à la Base
-- Vérifiez que MySQL est démarré dans XAMPP
-- Contrôlez les paramètres dans `db_connect.php`
-- Assurez-vous que la base `groupe_ipirnet` existe
+- 🌐 **Custom Development:** Created bespoke WordPress solutions for diverse clients
+- 💰 **Marketplace Success:** Built and sold complete digital assets on platforms like Flippa
+- 📈 **Brand Development:** Delivered comprehensive branding and web presence packages
+- 🎯 **Client Satisfaction:** Maintained 100% project completion rate with positive feedback
 
-### Erreur d'Upload de Fichiers
-- Vérifiez les permissions du dossier `uploads/`
-- Contrôlez la taille du fichier (max 10 MB)
-- Vérifiez le type de fichier
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### Page Blanche ou Erreur 500
-- Activez l'affichage des erreurs PHP
-- Vérifiez les logs d'erreur d'Apache
-- Contrôlez la syntaxe PHP des fichiers
+## 📊 GitHub Analytics
 
-### Problèmes de Style CSS
-- Videz le cache de votre navigateur (Ctrl+F5)
-- Vérifiez que Bootstrap est bien chargé
-- Contrôlez le chemin vers `custom.css`
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=ffffff&icon_color=00D9FF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=ffffff"/>
+</div>
 
-## Maintenance et Sauvegarde
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
+</div>
 
-### Sauvegarde de la Base de Données
-```bash
-# Via phpMyAdmin : Exporter > SQL
-# Ou en ligne de commande :
-mysqldump -u root -p groupe_ipirnet > backup.sql
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&bg_color=0D1117&color=00D9FF&line=00D9FF&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🎯 Expertise Matrix
+
+<div align="center">
+
+<table>
+<thead>
+<tr>
+<th>🌐 Web Development</th>
+<th>🔒 Cybersecurity</th>
+<th>🤖 AI & Innovation</th>
+<th>📊 Database & Systems</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<br>
+✅ Full-Stack Architecture<br>
+✅ RESTful API Design<br>
+✅ Responsive UI/UX<br>
+✅ Performance Optimization<br>
+✅ WordPress Customization<br>
+<br>
+</td>
+<td align="center">
+<br>
+🛡️ Network Security<br>
+🔐 Secure Coding Practices<br>
+🔒 Data Protection<br>
+🚨 Vulnerability Assessment<br>
+🛠️ Security Tools Integration<br>
+<br>
+</td>
+<td align="center">
+<br>
+🧠 Prompt Engineering<br>
+⚡ AI API Integration<br>
+🔮 Generative AI Solutions<br>
+🚀 Innovation Implementation<br>
+🎯 Intelligent Automation<br>
+<br>
+</td>
+<td align="center">
+<br>
+📈 Database Optimization<br>
+🗃️ Data Architecture<br>
+☁️ Cloud Infrastructure<br>
+🔧 System Administration<br>
+📊 Performance Monitoring<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🌟 Passion Projects & Interests
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center">
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" height="100" alt="Chess">
+<br><br>
+<strong>♟️ Strategic Chess</strong>
+<br>
+<em>Developing analytical thinking and strategic planning skills through competitive chess</em>
+</td>
+<td width="33%" align="center">
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100" height="100" alt="Football">
+<br><br>
+<strong>⚽ Football Enthusiast</strong>
+<br>
+<em>Team collaboration and physical fitness through the beautiful game</em>
+</td>
+<td width="33%" align="center">
+<img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="100" height="100" alt="Tech Innovation">
+<br><br>
+<strong>🔬 Tech Innovation</strong>
+<br>
+<em>Exploring emerging technologies and contributing to open-source projects</em>
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🎯 Current Focus & Goals
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((2025 Goals))
+    Open Source
+      Contribute to Django projects
+      Build useful tools
+      Community engagement
+    Cybersecurity
+      Advanced penetration testing
+      Security architecture
+      Ethical hacking certifications
+    AI Integration
+      Machine learning workflows
+      Intelligent automation
+      Prompt engineering mastery
+    Career Growth
+      Senior developer role
+      Technical leadership
+      International opportunities
 ```
 
-### Sauvegarde des Fichiers
-Sauvegardez régulièrement :
-- Le dossier `uploads/` (fichiers de cours)
-- Les fichiers de configuration
-- La base de données
+</div>
 
-### Mise à Jour
-Pour mettre à jour l'application :
-1. Sauvegardez vos données
-2. Remplacez les fichiers PHP
-3. Importez les modifications de base si nécessaire
-4. Testez toutes les fonctionnalités
+### 🚀 Roadmap Ahead
+- 🔥 **Contributing** to major open-source Django projects
+- 📚 **Mastering** advanced cybersecurity frameworks and tools
+- 🤖 **Integrating** cutting-edge AI/ML solutions in web applications
+- 🌍 **Building** scalable solutions with global impact
+- 👥 **Mentoring** upcoming developers in the community
 
-## Support et Contact
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### Développement
-Cette application a été développée dans le cadre du module "Technicien Spécialisé en Développement Informatique" pour répondre aux exigences du cahier des charges Groupe IPIRNET.
+## 📫 Let's Connect & Collaborate!
 
-### Assistance Technique
-Pour toute assistance :
-1. Consultez ce README
-2. Vérifiez les logs d'erreur
-3. Testez avec les comptes de démonstration
-4. Contactez l'administrateur système
+<div align="center">
+
+**"The best code is not just functional, it's elegant, secure, and tells a story."**
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-abidou-603284270)
+[![Email](https://img.shields.io/badge/Email-Drop_a_Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abidou.mohammed03@gmail.com)
+
+<br>
+
+**Open for:**
+- 🤝 Collaboration on Django & AI projects
+- 💼 Full-time opportunities in web development
+- 🎯 Freelance Django & WordPress projects
+- 🌱 Mentoring and knowledge sharing
+- 🚀 Innovation and startup ventures
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" />
+</div>
 
 ---
 
-**Version** : 1.0  
-**Date de livraison** : 25 juin 2025  
-**Développé pour** : Groupe IPIRNET  
-**Module** : Technicien Spécialisé en Développement Informatique
-
-*Application développée en PHP natif, HTML, Bootstrap et MySQL selon les spécifications du cahier des charges.*
+<div align="center">
+  <sub>💫 Crafted with passion and precision by Mohammed Abidou</sub>
+</div>
